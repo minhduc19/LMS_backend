@@ -8,8 +8,8 @@ async function connect() {
       	{ 
       		useNewUrlParser: true,
       		useFindAndModify: false,
-    		useUnifiedTopology: true,
-    		useCreateIndex: true,
+    		  useUnifiedTopology: true,
+    		  useCreateIndex: true,
       	}
     ).then(() => { console.log("db connected")});
   } catch (err) {
